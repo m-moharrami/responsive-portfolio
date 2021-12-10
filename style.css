@@ -131,7 +131,13 @@ section {
 
     .articles.inverse .accent-text,
     .articles.inverse .name,
-    .articles.inverse .time {
-     color: currentColor; /*It selects the parents color for this property, in this case it would be #252525 */
+    .articles.inverse .time,
+    .articles.inverse a {
+        color: currentColor; /*It selects the parents color for this property, in this case it would be #252525 */
+    }
+
+    .articles.inverse a:hover,
+    .articles.inverse a:focus {
+        color: #FFF;
     }
 }
