@@ -123,4 +123,15 @@ section {
     .splitter {
         display: flex;
     }
+
+    .articles.inverse {
+        background-color: #99D930;
+        color: #252525;
+    }
+
+    .articles.inverse .accent-text,
+    .articles.inverse .name,
+    .articles.inverse .time {
+     color: currentColor; /*It selects the parents color for this property, in this case it would be #252525 */
+    }
 }
