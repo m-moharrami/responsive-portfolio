@@ -140,4 +140,18 @@ section {
     .articles.inverse a:focus {
         color: #FFF;
     }
+
+    .articles.inverse h2 {
+        border-color: #000;
+    }
+
+    .articles.inverse .btn {
+        background-color: #252525;
+        color: #FFF;
+    }
+
+    .articles.inverse .btn:hover {
+        background-color: #FFF;
+        color: #252525;
+    }
 }
