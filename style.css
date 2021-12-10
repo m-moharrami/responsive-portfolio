@@ -83,6 +83,10 @@ a:focus {
     margin-top: .3125em;
 } 
 
+img {
+    max-width: 100%;
+}
+
 header,
 section {
     padding: 6.25em 0;
