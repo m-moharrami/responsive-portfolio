@@ -15,6 +15,10 @@ body {
     padding: 0 2em;
 }
 
+.portfolio {
+    background-color: #FFF;
+}
+
 h1,
 h2 {
     font-weight: 300; 
@@ -158,5 +162,23 @@ header {
     .articles.inverse .btn:hover {
         background-color: #FFF;
         color: #252525;
+    }
+
+    .portfolio {
+        background-color: #252525;
+        color: #FFF;
+    }
+
+    .portfolio .container {
+        max-width: 1200px;
+    }
+
+    .work {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .portfolio-item {
+        width: 28%;
     }
 }
