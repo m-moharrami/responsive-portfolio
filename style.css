@@ -87,6 +87,10 @@ section {
     padding: 6.25em 0;
 }
 
+header {
+    min-height: 100vh;
+}
+
 .inverse {
     color: #fff;
     background: #252525;
@@ -122,6 +126,7 @@ section {
 @media (min-width: 750px) {
     .splitter {
         display: flex;
+        align-items: center;
     }
 
     .articles.inverse {
