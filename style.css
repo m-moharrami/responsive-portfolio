@@ -15,10 +15,6 @@ body {
     padding: 0 2em;
 }
 
-.portfolio {
-    background-color: #FFF;
-}
-
 h1,
 h2 {
     font-weight: 300; 
@@ -167,6 +163,9 @@ header {
     .portfolio {
         background-color: #252525;
         color: #FFF;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
     }
 
     .portfolio .container {
@@ -180,5 +179,11 @@ header {
 
     .portfolio-item {
         width: 28%;
+    }
+
+    .portfolio-item img {
+        height: 15em;
+        width: 100%;
+        object-fit: cover;
     }
 }
