@@ -173,7 +173,7 @@ header {
         max-width: 1200px;
     }
 
-    .work {
+    .portfolio .work {
         display: flex;
         justify-content: space-around;
     }
